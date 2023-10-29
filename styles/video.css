@@ -1,0 +1,57 @@
+ 
+.thumbnail-1{width: 100%;
+    display: grid;grid-template-columns: 1fr;
+    min-width: 150px;
+   }
+    .channel-name,.video-status{
+   font-size: 13px;
+   font-weight: 300;
+   font-family: roboto,arial;
+   color: rgb(145, 140, 140);}
+   .channel-name{margin-bottom: 0px;} 
+   .video-status{margin-top: 0;
+   margin-bottom: 16px;}
+   .channel{width: 36px;
+    border-radius: 30px;
+     vertical-align: top;}  
+.text{ vertical-align: top;
+   color: black;
+
+font-family: roboto,arial;} 
+.div-1{display: grid; grid-template-columns: 1fr;
+      cursor: pointer;
+      position: relative; }
+      
+.cha-pic{display: grid;
+     grid-template-columns: 50px 1fr;
+   margin-top: 10px;
+   cursor: pointer;}
+   
+.video-grid{display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr ;
+   column-gap: 16px;
+   row-gap:40px;
+padding: 20px;
+margin-left: 16px;
+padding-top: -10px;
+padding: 20px;
+border-top: solid;
+border-top-width:1px;
+border-top-color: rgb(204, 204, 204);
+background-color: rgb(250, 250, 250);}
+
+@media (min-width:750px) {.video-grid{grid-template-columns: 1fr 1fr 1fr 1fr;}}
+@media(max-width:1107px) {.video-grid{grid-template-columns: 1fr 1fr 1fr;}}
+.time{background-color: black;
+      color: white;
+   position: absolute;
+   right: 5px;
+   bottom: 8px;
+  font-family: roboto,arial;
+  font-size: 12px;
+font-weight: 500;
+padding: 2px 4px;}
+   
+  
+  
+    

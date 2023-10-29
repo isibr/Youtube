@@ -1,0 +1,200 @@
+  .header{
+      height: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+  left: 0;
+      right:0;
+ 
+  
+  border-bottom-color:rgb(168, 168, 168) ;
+margin-bottom: 20px;
+z-index: 100;}
+
+
+    .left-icon{
+          display: flex;
+    align-items: center;
+  vertical-align: top;}
+    
+      .center-icon{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 40px;
+      max-width: 500px;
+    display: flex;
+    align-items: center;}
+      
+.right-icon{
+    width: 182px;
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+margin-left: 29px;
+margin-right: 24px;
+flex-shrink: 0;}
+
+    .hamburger{height: 25px;
+      margin-left: 24px;
+      margin-right: 24px;
+    cursor: pointer;} 
+          .youtube-logo{height: 20px;
+          cursor: pointer;}    
+        .search-bar{ height: 36px;
+        flex: 1;
+      padding-left: 10px;
+      font-size: 16px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(216, 212, 212);
+      border-radius: 2px;
+      box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+      width: 0;}
+ 
+        .search-bar::placeholder{
+           font-family: roboto,arial;
+           font-size: 16px;}
+          
+        .button-search{
+       width: 66px;
+      height: 40px;
+      border-style: solid;
+      border-width: 1px;
+      border-color:rgb(216, 212, 212);
+      background-color: #f8f8f8;
+      border-left: none;
+      cursor: pointer;}      
+        .button-voice{width: 40px;   height: 40px;
+      border-width: 1px;
+      border-radius: 20px;
+      margin-left: 10px;
+      border: none;
+      justify-content: center;
+      background-color: #f8f8f8;
+      position: relative;}
+      .search{width: 24px;
+      height: 24px;
+      margin-top: 5px;}
+      .voice-search{
+        width: 24px;
+           height: 24px;
+          cursor: pointer;}
+      .upload{width: 24px;
+      cursor: pointer;}
+      .youtube-apps{ width: 24px;
+      cursor: pointer;}
+      .notifications{width: 24px;
+      cursor: pointer;}
+      .my-channel{width: 32px; border-radius: 16px;
+      cursor: pointer;}        
+    .not-div{position: relative;}
+    .upload-div{position: relative;}
+    .red{position: absolute;
+         font-family: roboto,arial;
+         font-size: 12px;
+         background-color: rgb(204, 0, 0);
+        width: 12px;
+        padding-left:4px;
+        border-radius:7.5px;
+         color: white;
+         top: -2px;
+        right:-5px;}
+  .button-search .tooltip{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-left:8px ;
+    padding-right:8px ;
+    padding-top:9px ;
+    padding-bottom:4px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: roboto,arial;
+    bottom: -28px;
+    opacity: 0;
+    height: 20px;
+  pointer-events: none;}
+
+  .button-search:hover .tooltip{
+    opacity: 1;
+    transition: opacity 0.5s;}
+   
+    .button-voice .tooltip{
+      position: absolute;
+      height: 20px;
+      background-color: gray;
+      color: white;
+      padding-left:8px ;
+      padding-right:8px ;
+      padding-top:10px ;
+      padding-bottom:4px;
+      border-radius: 2px;
+      font-size: 12px;
+      font-family: roboto,arial;
+      bottom: -40px;
+      opacity: 0;
+      width: 130px;
+    pointer-events: none;} 
+    .button-voice:hover .tooltip{
+      opacity: 1;
+      transition: opacity 0.5s;}
+   
+.upload-div .tooltip{
+      position: absolute;
+      background-color: gray;
+      color: white;
+      padding-left:8px ;
+      padding-right:8px ;
+      padding-top:9px ;
+      padding-bottom:4px;
+      border-radius: 2px;
+      font-size: 12px;
+      font-family: roboto,arial;
+      bottom: -45px;
+      opacity: 0;
+      height: 20px;
+    pointer-events: none;}
+    
+    .upload-div:hover .tooltip {opacity: 1;
+      transition: opacity 0.5s;} 
+      
+    .apps-div{position: relative;} 
+    .apps-div .tooltip{position: absolute;
+      background-color: gray;
+      color: white;
+      padding-left:8px ;
+      padding-right:8px ;
+      padding-top:9px ;
+      padding-bottom:2px;
+      border-radius: 2px;
+      font-size: 12px;
+      font-family: roboto,arial;width: 80px;
+      bottom: -45px;
+      opacity: 0;
+      height: 20px;
+    pointer-events: none;} 
+
+    .apps-div:hover .tooltip {opacity: 1;
+      transition: opacity 0.5s;} 
+
+    .not-div .tooltip{ 
+      position:absolute;
+      background-color: gray;
+      color: white;
+      padding-left:8px ;
+      padding-right:8px ;
+      padding-top:9px ;
+      padding-bottom:2px;
+      border-radius: 2px;
+      font-size: 12px;
+      font-family: roboto,arial;width: 70px;
+      bottom: -45px;
+      opacity: 0;
+      height: 20px;
+    pointer-events: none;}  
+
+    .not-div:hover .tooltip {opacity: 1;
+      transition: opacity 0.5s;} 

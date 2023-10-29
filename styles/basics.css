@@ -1,0 +1,30 @@
+.header{background-color: rgb(247, 243, 243);
+  height: 100px;
+  display: flex;}
+  .left{height: 100px;
+      background-color: blue;
+      width: 300px;}
+
+   .center{height: 100px;
+           background-color: black;
+          width: 500px;
+          margin-left: 100px;
+          }
+          .right{height: 100px;
+          background-color: brown;
+          width: 400px;
+          margin-left:100px;}
+   
+          
+.thegrid{background-color: rgba(57, 255, 255, 0.651);
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap:40px;
+  height: 800px;
+}
+.whole{background-color: rgb(255, 0, 0);}
+.thumbnail{background-color: rgb(238, 255, 0);}
+.cha-pic{background-color: rgb(132, 0, 255);}
+.text{background-color: rgb(30, 255, 0);}
+
